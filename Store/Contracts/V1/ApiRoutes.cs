@@ -25,5 +25,11 @@
             public const string GetAll = Base + "categories";
             public const string Add = Base + "categories";
         }
+        public static class Cart
+        {
+            public const string GetAll = Base + "cart";
+            public const string Add = Base + "cart/Add";
+            
+        }
     }
 }

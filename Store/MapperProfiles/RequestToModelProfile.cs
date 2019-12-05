@@ -11,8 +11,10 @@ namespace Store.MapperProfiles
             CreateMap<ProductRequest, Product>();
 
             CreateMap<CategoryRequest, Category>();
+            CreateMap<CartRequest, Cart>();
 
             CreateMap<PaginationRequest, PaginationFilter>();
+
         }
     }
 }

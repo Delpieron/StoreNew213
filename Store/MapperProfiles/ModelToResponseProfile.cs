@@ -12,6 +12,7 @@ namespace Store.MapperProfiles
                 .ForMember(dest => dest.CategoryName, x => x.MapFrom(src => src.Category.Name));
 
             CreateMap<Category, CategoryResponse>();
+            CreateMap<Cart, CartResponse>();
         }
     }
 }
